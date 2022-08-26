@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+  }
+
+body{
+    /* background-image:url(../assets/pexels.png); */
+    height: 100vh;
+    background:
+        linear-gradient(
+            rgba(55, 57, 85, 0.76),
+            rgba(52, 56, 76, 0.76)
+    ), 
+    url(../assets/pexels.png) center center fixed round;
+    /* background-size: fixed; */
+    /* background-repeat: round; */
+
+  }
+
+  /* rgba(58,59,74,0.76), */
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+  /* ------------------------------ */
+  /* ---------- NAVBAR ------------ */
+  /* ------------------------------ */
+
+[aria-label*="navbar"]{
+    height: 18vh;
+    display: flex;
+}
+
+.logo{
+    height: 8vh;
+    width: 8vw;
+    position: relative;
+    left: 40px;
+    top: 17px;
+    margin: 16px 0 0 36px;
+}
+
+.list{
+    display: inline-flex;
+    position: relative;
+    list-style: none;
+    color: #FBBF32;
+    left: 28vw;
+    bottom: 4vh;
+    font-family: 'Red Rose', cursive;
+    font-size: 19px;
+}
+
+.list-item{
+    padding: 0 46px;
+}
+
+.button-small{
+    background-color:#FF505F;
+    border-color: #FF505F;
+    font-weight: bold;
+    position: relative;
+    left: 78.5vw;
+    bottom: 10vh;
+    height: 7vh;
+    width: 10.5vw;
+    color: #FFF3F4;
+    font-family: 'Red Rose', cursive;
+    font-size: 23px;
+    text-align: center;
+}
+  
+  /* ------------------------------ */
+  /* ---------- HERO ------------ */
+  /* ------------------------------ */
+
+  .hero{
+    display: flex;
+    justify-content: center;
+    height: 54vh;
+    padding: 9px 0;
+}
+
+.hero h1{
+    font-family: 'Dela Gothic One', cursive;
+    color: #FBBF32;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    height: 72vh;
+    width: 75vw;
+    font-weight: 1000;
+    top: 14vh;
+    line-height: 14.5vh;
+    word-spacing: 1vw;
+    font-size: 93px;
+    text-align: center;
+}
+
+[alt="bottom-logo"]{
+    position: relative;
+    top: 49vh;
+    left: 23vw;
+    font-family: 'Red Rose', cursive;
+
+}
+  
+.button-large{
+    background-color:#FF505F;
+    border-color: #FF505F;
+    color: #FFF3F4;
+    font-family: 'Red Rose', cursive;
+    position: relative;
+    top: 64vh;
+    height: 12vh;
+    width: 23vw;
+    font-weight: bold;
+    left: 5.9vw;
+    font-size: 26px;
+}
